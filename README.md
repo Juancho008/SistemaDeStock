@@ -1,8 +1,8 @@
-# mvc-base
+# Sistema de Stock
 
-MVC Base para los sistemas
+Sistema de stock basico que permite cargar productos y solicitarlos de forma interna
 
-# Configurar
+# Como configurar
 
 Se debe crear el archivo app/config/configurar.php con el modelo de app/config/configurar_example.php y los datos locales de conexión.
 
