@@ -1,0 +1,82 @@
+* {
+  font-family: "Karla", sans-serif;
+}
+body{
+  background-image:url('../img/misiones.jpg') ;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+/*margenes*/
+.mt_per_logo{
+  margin-top: 10vh;
+}
+.mt_per{
+  margin-top:5vh;
+}
+/*Fin margenes*/
+
+/*Fondo del card*/
+.card-transp{
+  background-color: rgba(187, 187, 187, 0.5);
+  backdrop-filter: blur(10px);
+}
+/*Fin del fondo de card*/
+
+/*Titulo del sistema*/
+.titulo-sistema{
+  font-weight: bold;
+  color: #fff;
+}
+/*fin titulo del sistema*/
+
+/*titulos inputs*/
+.label-password{
+  font-weight: bold;
+}
+.label-usuario{
+  font-weight: bold;
+}
+/*titulos inputs*/
+
+/* Boton de login */
+.login-btn{
+  background:rgb(9, 0, 177); ;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.login-btn:hover{
+  background-color: rgba(255, 255, 255, 0.838);
+  backdrop-filter: blur(10px);
+  color:rgb(9, 0, 177) ;
+}
+.login-btn:before,.login-btn::after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: rgb(9, 0, 177);
+  transition:400ms ease all;
+}
+.login-btn::after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.login-btn:hover:before,.login-btn:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+/*Fin boton login*/
